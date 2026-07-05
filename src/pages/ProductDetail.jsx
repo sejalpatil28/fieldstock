@@ -3,8 +3,8 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { fetchProductBySku } from "../services/Api";
 import { CATEGORIES } from "../data/products";
 import { useCart } from "../context/CartContext";
-import ProductGlyph from "../components/ProductGlyph";
-import Loader from "../components/Loader";
+import ProductGlyph from "../Components/ProductGlyph";
+import Loader from "../Components/Loader";
 
 const formatPrice = (n) => `$${n.toFixed(2)}`;
 
